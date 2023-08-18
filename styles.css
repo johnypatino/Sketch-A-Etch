@@ -1,8 +1,10 @@
 body {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 .grid {
+    margin-top: 50px;
     display: flex;
     
     min-height: 700px;
